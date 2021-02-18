@@ -124,9 +124,7 @@ table > tbody > tr > td {
 }
 
 .table-container{
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
+
 }
 
 .table-container table{
