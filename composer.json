@@ -1,0 +1,12 @@
+{
+    "name": "supto/csv-to-xml-converter-php",
+    "authors": [
+        {
+            "name": "Supto Purakayasto",
+            "email": "codersupto@gmail.com"
+        }
+    ],
+    "require": {
+        "league/csv": "^9.6"
+    }
+}
