@@ -69,7 +69,6 @@ function download_file() {
         $file = $_GET['download'];
 
         if (file_exists($file)) {
-            header('Location', gethostname());
             header('Content-Description: File Transfer');
             header('Content-Type: application/octet-stream');
             header('Content-Disposition: attachment; filename="'.basename($file).'"');
@@ -132,7 +131,7 @@ function download_file() {
                 }
                 echo "</tbody>";
                 echo "</table>";
-                echo '<a href="/?download='. $table_data['download_url'] .'" id="exportXml" class="download btn">Download as XML</a>';
+                echo '<a href="?download='. $table_data['download_url'] .'" id="exportXml" class="download btn">Download as XML</a>';
             }
             ?>
         </div>
